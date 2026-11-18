@@ -1,0 +1,35 @@
+﻿# Environment and credentials
+.env
+.env.*
+!.env.example
+
+# Credentials
+credentials.json
+service-account.json
+firebase-adminsdk*.json
+secrets.json
+
+# Private keys
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Dependencies
+node_modules/
+
+# Build files
+dist/
+build/
+
+# Logs
+*.log
+
+# VS Code
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# OS files
+.DS_Store
+Thumbs.db
